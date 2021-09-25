@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="403.0" style="-fx-background-color: Black;">
+         <children>
+            <ImageView fitHeight="268.0" fitWidth="416.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imgs/th.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="34.0" layoutY="277.0" text="The Footy App" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Calisto MT" size="48.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_back" alignment="CENTER" layoutX="307.0" layoutY="748.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="82.0" style="-fx-background-color: transparent;" text="Quit" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="19.0" />
+               </font></Button>
+            <Button fx:id="buttonRegister" alignment="CENTER" layoutX="16.0" layoutY="748.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="191.0" style="-fx-background-color: transparent;" text="Back to create user" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="19.0" />
+               </font></Button>
+            <Label fx:id="ballerNameDisplay" alignment="CENTER" layoutX="19.0" layoutY="365.0" prefHeight="56.0" prefWidth="363.0" text="You are logged in" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_baller" alignment="CENTER" layoutX="138.0" layoutY="421.0" prefHeight="47.0" prefWidth="134.0" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <Button fx:id="proceedButton" alignment="CENTER" layoutX="112.0" layoutY="651.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="177.0" style="-fx-background-color: transparent;" text="Proceed" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="36.0" />
+               </font></Button>
+         </children></AnchorPane>
+   </children>
+</HBox>

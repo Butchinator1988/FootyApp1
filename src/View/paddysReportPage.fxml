@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="819.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PaddysReportController">
+    <children>
+        <AnchorPane prefHeight="819.0" prefWidth="408.0" style="-fx-background-color: Black;">
+            <children>
+                <Label fx:id="login_label" layoutX="14.0" layoutY="773.0" prefHeight="22.0" prefWidth="236.0" text="Currently logged in: " textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                    <font>
+                        <Font name="Calisto MT Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Button fx:id="quitButton" alignment="CENTER" layoutX="293.0" layoutY="759.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="79.0" style="-fx-background-color: transparent;" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT Bold" size="22.0" />
+               </font></Button>
+            <Label fx:id="login_label1" alignment="CENTER" layoutX="24.0" layoutY="14.0" prefHeight="49.0" prefWidth="368.0" text="Paddys Reports" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Calisto MT" size="42.0" />
+               </font>
+            </Label>
+            <Label fx:id="login_label11" alignment="CENTER" layoutX="24.0" layoutY="77.0" prefHeight="579.0" prefWidth="368.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Castellar" size="12.0" />
+               </font></Label>
+            <Button fx:id="lastReportButton" alignment="CENTER" layoutX="24.0" layoutY="694.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="157.0" style="-fx-background-color: transparent;" text="Last report" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="nextReportButton" alignment="CENTER" layoutX="213.0" layoutY="694.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="173.0" style="-fx-background-color: transparent;" text="Next Report" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT Bold" size="24.0" />
+               </font>
+            </Button>
+            </children></AnchorPane>
+    </children>
+</HBox>

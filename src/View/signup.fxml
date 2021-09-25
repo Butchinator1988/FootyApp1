@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="802.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SignUpController">
+    <children>
+        <AnchorPane prefHeight="800.0" prefWidth="400.0" style="-fx-background-color: Black;">
+            <children>
+                <ImageView fitHeight="267.0" fitWidth="495.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../imgs/th.jpg" />
+                    </image>
+                </ImageView>
+                <Label layoutX="45.0" layoutY="276.0" text="The Footy App" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                    <font>
+                        <Font name="Calisto MT" size="48.0" />
+                    </font>
+                </Label>
+            <Label alignment="CENTER" layoutX="85.0" layoutY="358.0" text="Registration Form" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Calisto MT" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonRegister" layoutX="109.0" layoutY="635.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="182.0" style="-fx-background-color: transparent;" text="Sign up" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="29.0" />
+               </font></Button>
+
+            <Label fx:id="label_baller" layoutX="19.0" layoutY="748.0" text="Already a baller?" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="20.0" />
+               </font></Label>
+            <Button fx:id="button_back" layoutX="169.0" layoutY="738.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="95.0" style="-fx-background-color: transparent;" text="Login!" textFill="#3039bb" underline="true">
+               <font>
+                  <Font name="Calisto MT" size="22.0" />
+               </font></Button>
+            <Label alignment="CENTER" layoutX="116.0" layoutY="393.0" prefHeight="39.0" prefWidth="167.0" text="Create new Baller" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="21.0" />
+               </font>
+            </Label>
+                <TextField fx:id="tf_username" layoutX="176.0" layoutY="548.0" prefHeight="25.0" prefWidth="211.0" />
+                <Label layoutX="35.0" layoutY="546.0" text="Username" textFill="WHITE">
+                    <font>
+                        <Font name="Calisto MT" size="26.0" />
+                    </font>
+                </Label>
+                <Label layoutX="40.0" layoutY="596.0" text="Password" textFill="WHITE">
+                    <font>
+                        <Font name="Calisto MT" size="25.0" />
+                    </font>
+                </Label>
+                <PasswordField fx:id="tf_password" layoutX="176.0" layoutY="598.0" prefHeight="25.0" prefWidth="211.0" />
+            <Button fx:id="button_back1" layoutX="282.0" layoutY="738.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="113.0" style="-fx-background-color: transparent;" text="Quit" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="23.0" />
+               </font>
+            </Button>
+            </children></AnchorPane>
+    </children>
+</HBox>

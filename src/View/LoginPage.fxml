@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="809.0" prefWidth="402.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="400.0" style="-fx-background-color: Black;">
+         <children>
+            <ImageView fitHeight="267.0" fitWidth="447.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imgs/th.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="13.0" layoutY="267.0" prefHeight="84.0" prefWidth="374.0" text="The Footy App" textAlignment="JUSTIFY" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Calisto MT" size="48.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="37.0" layoutY="527.0" text="Username" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="24.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="40.0" layoutY="571.0" text="Password" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="159.0" layoutY="529.0" prefHeight="25.0" prefWidth="201.0" />
+            <PasswordField fx:id="tf_password" layoutX="161.0" layoutY="573.0" prefHeight="25.0" prefWidth="201.0" />
+            <Label alignment="CENTER" layoutX="90.0" layoutY="623.0" text="Not a user?" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font></Label>
+            <Button fx:id="buttonRegister" layoutX="184.0" layoutY="617.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Join the Ballers" textAlignment="CENTER" textFill="#4e5da9" underline="true">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+            <Button fx:id="button_login" alignment="CENTER" layoutX="140.0" layoutY="661.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="136.0" style="-fx-background-color: transparent;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="29.0" />
+               </font></Button>
+            <Button fx:id="button_login1" alignment="CENTER" layoutX="165.0" layoutY="728.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" style="-fx-background-color: transparent;" text="Quit" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="24.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</HBox>
